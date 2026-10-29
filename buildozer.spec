@@ -9,7 +9,7 @@ source.exclude_dirs = tests, bin, .buildozer, .git, .github, venv, __pycache__
 
 version = 0.1
 
-requirements = python3,kivy==2.3.0,pillow,requests,certifi,urllib3,idna,charset-normalizer
+requirements = python3==3.10.14,kivy==2.3.0,pillow,requests,certifi,urllib3,idna,charset-normalizer
 
 orientation = portrait
 fullscreen = 0
@@ -19,6 +19,7 @@ android.api = 33
 android.minapi = 21
 android.ndk = 25b
 android.archs = arm64-v8a, armeabi-v7a
+android.python_version = 3
 android.accept_sdk_license = True
 android.allow_backup = True
 android.debug_artifact = apk
