@@ -9,7 +9,7 @@ source.exclude_dirs = tests, bin, .buildozer, .git, .github, venv, __pycache__
 
 version = 0.1
 
-requirements = python3,kivy==2.3.0,pillow,requests,certifi,urllib3,idna,charset-normalizer
+requirements = python3==3.11.9,kivy==2.3.0,pillow,requests,certifi,urllib3,idna,charset-normalizer
 
 orientation = portrait
 fullscreen = 0
